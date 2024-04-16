@@ -10,12 +10,9 @@ const ProductPriceUpdater = () => {
     try {
       const response1 = await axios.get(`/api`);
       console.log(response1);
-      const response = await axios.put(
-        `https://localhost:7011/api/Products/${newPrice}`,
-        {
-          newPrice: parseFloat(newPrice),
-        }
-      );
+      const response = await axios.put(`/api/Products/${newPrice}`, {
+        newPrice: parseFloat(newPrice),
+      });
       console.log(response);
       setMessage(response.data);
     } catch (error) {
