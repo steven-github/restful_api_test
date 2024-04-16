@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sHf63U0NQSSDjWzFm0gCJuT0N+39xD/Qlqnz4qZPSFw=",
+  "Source": "restful_api_test",
+  "BasePath": "_content/restful_api_test",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

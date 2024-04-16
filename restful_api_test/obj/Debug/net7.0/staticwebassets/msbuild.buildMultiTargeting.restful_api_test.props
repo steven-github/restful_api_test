@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/restful_api_test.props" />
+</Project>
